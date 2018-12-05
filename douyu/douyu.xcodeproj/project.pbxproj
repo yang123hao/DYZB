@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0440D0B621B77C29007EF7FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0440D0B521B77C29007EF7FB /* AppDelegate.swift */; };
-		0440D0B821B77C29007EF7FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0440D0B721B77C29007EF7FB /* ViewController.swift */; };
 		0440D0BB21B77C29007EF7FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0440D0B921B77C29007EF7FB /* Main.storyboard */; };
 		0440D0BE21B77C29007EF7FB /* douyu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0440D0BC21B77C29007EF7FB /* douyu.xcdatamodeld */; };
 		0440D0C021B77C2B007EF7FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0440D0BF21B77C2B007EF7FB /* Assets.xcassets */; };
@@ -16,6 +15,8 @@
 		0440D0CE21B77C2B007EF7FB /* douyuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0440D0CD21B77C2B007EF7FB /* douyuTests.swift */; };
 		0440D0D921B77C2B007EF7FB /* douyuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0440D0D821B77C2B007EF7FB /* douyuUITests.swift */; };
 		0464CC0821B7819D00142248 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464CC0721B7819D00142248 /* File.swift */; };
+		04907E2021B81D3900A8CAF0 /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = 04907E1F21B81D3800A8CAF0 /* Icon */; };
+		04907E2221B81DDA00A8CAF0 /* Class in Resources */ = {isa = PBXBuildFile; fileRef = 04907E2121B81DDA00A8CAF0 /* Class */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,6 @@
 /* Begin PBXFileReference section */
 		0440D0B221B77C29007EF7FB /* douyu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = douyu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0440D0B521B77C29007EF7FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0440D0B721B77C29007EF7FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0440D0BA21B77C29007EF7FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0440D0BD21B77C29007EF7FB /* douyu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = douyu.xcdatamodel; sourceTree = "<group>"; };
 		0440D0BF21B77C2B007EF7FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +51,8 @@
 		0440D0D821B77C2B007EF7FB /* douyuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = douyuUITests.swift; sourceTree = "<group>"; };
 		0440D0DA21B77C2B007EF7FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0464CC0721B7819D00142248 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		04907E1F21B81D3800A8CAF0 /* Icon */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Icon; sourceTree = "<group>"; };
+		04907E2121B81DDA00A8CAF0 /* Class */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Class; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +103,9 @@
 		0440D0B421B77C29007EF7FB /* douyu */ = {
 			isa = PBXGroup;
 			children = (
+				04907E2121B81DDA00A8CAF0 /* Class */,
+				04907E1F21B81D3800A8CAF0 /* Icon */,
 				0440D0B521B77C29007EF7FB /* AppDelegate.swift */,
-				0440D0B721B77C29007EF7FB /* ViewController.swift */,
 				0440D0B921B77C29007EF7FB /* Main.storyboard */,
 				0440D0BF21B77C2B007EF7FB /* Assets.xcassets */,
 				0440D0C121B77C2B007EF7FB /* LaunchScreen.storyboard */,
@@ -236,6 +239,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0440D0C321B77C2B007EF7FB /* LaunchScreen.storyboard in Resources */,
+				04907E2021B81D3900A8CAF0 /* Icon in Resources */,
+				04907E2221B81DDA00A8CAF0 /* Class in Resources */,
 				0440D0C021B77C2B007EF7FB /* Assets.xcassets in Resources */,
 				0440D0BB21B77C29007EF7FB /* Main.storyboard in Resources */,
 			);
@@ -264,7 +269,6 @@
 			files = (
 				0440D0BE21B77C29007EF7FB /* douyu.xcdatamodeld in Sources */,
 				0464CC0821B7819D00142248 /* File.swift in Sources */,
-				0440D0B821B77C29007EF7FB /* ViewController.swift in Sources */,
 				0440D0B621B77C29007EF7FB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,9 +444,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9GNY699JQG;
 				INFOPLIST_FILE = douyu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,9 +464,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9GNY699JQG;
 				INFOPLIST_FILE = douyu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
