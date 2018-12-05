@@ -15,6 +15,7 @@
 		0440D0C321B77C2B007EF7FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0440D0C121B77C2B007EF7FB /* LaunchScreen.storyboard */; };
 		0440D0CE21B77C2B007EF7FB /* douyuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0440D0CD21B77C2B007EF7FB /* douyuTests.swift */; };
 		0440D0D921B77C2B007EF7FB /* douyuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0440D0D821B77C2B007EF7FB /* douyuUITests.swift */; };
+		0464CC0821B7819D00142248 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464CC0721B7819D00142248 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0440D0D421B77C2B007EF7FB /* douyuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = douyuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0440D0D821B77C2B007EF7FB /* douyuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = douyuUITests.swift; sourceTree = "<group>"; };
 		0440D0DA21B77C2B007EF7FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0464CC0721B7819D00142248 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				0440D0C121B77C2B007EF7FB /* LaunchScreen.storyboard */,
 				0440D0C421B77C2B007EF7FB /* Info.plist */,
 				0440D0BC21B77C29007EF7FB /* douyu.xcdatamodeld */,
+				0464CC0721B7819D00142248 /* File.swift */,
 			);
 			path = douyu;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0440D0BE21B77C29007EF7FB /* douyu.xcdatamodeld in Sources */,
+				0464CC0821B7819D00142248 /* File.swift in Sources */,
 				0440D0B821B77C29007EF7FB /* ViewController.swift in Sources */,
 				0440D0B621B77C29007EF7FB /* AppDelegate.swift in Sources */,
 			);
